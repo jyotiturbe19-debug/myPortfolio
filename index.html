@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+            margin: 10px;
+            background: white;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: brown;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #eee;
+            margin: 5px 0;
+            padding: 8px;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+        }
+		
+		/* Background Image Blur */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: url('background portfolio.png') no-repeat center center/cover;
+
+    filter: blur(8px);
+    z-index: -1;
+}
+
+/* Dark overlay (optional but recommended) */
+body::after {
+    content: "";
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Jyoti T</h1>
+	<p>Solapur,Maharashtra</p>
+    <p>Computer Engineering Student | Developer</p>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>
+        Hi, I am a Computer Engineering student and beginner developer.
+        I build simple and useful projects using Java and web development.
+    </p>
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <ul>
+        <li>Java</li>
+        <li>HTML & CSS</li>
+        <li>Basic JavaScript</li>
+        <li>Web Development</li>
+		<li>Software devlopment</li>
+		<li>Debugging</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Projects</h2>
+    <ul>
+        <li>Smart Voice Controlled Wheelchair UI</li>
+        <li>Simple Responsive Website</li>
+        <li>Java Mini Project</li>
+        <li>Accident detection App</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>Email: jyotiturbe19@gmail.com</p>
+    <p>Fiverr: https://www.fiverr.com/sellers/sonut0/edit</p>
+</section>
+
+<footer>
+    <p>© 2026 Jyoti T</p>
+</footer>
+
+</body>
+</html>
